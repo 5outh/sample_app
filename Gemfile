@@ -6,6 +6,7 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 gem 'json'
 group :development do
@@ -16,7 +17,9 @@ group :test do
 	gem 'rspec-rails'
 	gem 'webrat'
 	gem 'spork'
+	gem 'factory_girl_rails'
 end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
